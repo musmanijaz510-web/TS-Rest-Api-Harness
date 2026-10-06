@@ -14,5 +14,15 @@ export const CreateNoteSchema = z.object({
   body: z.string().max(10_000).default(''),
 });
 
+export const PatchNoteSchema = z
+  .object({
+    title: z.string().trim().min(1).max(200).optional(),
+    body: z.string().max(10_000).optional(),
+  })
+  .strict()
+  .refine((input) => input.title !== undefined || input.body !== undefined, {
+    message: 'title or body is required',
+  });
+
 export const NoteParamsSchema = z.object({ id: z.uuid() });
 export const NotePageSchema = pageSchema(NoteSchema);

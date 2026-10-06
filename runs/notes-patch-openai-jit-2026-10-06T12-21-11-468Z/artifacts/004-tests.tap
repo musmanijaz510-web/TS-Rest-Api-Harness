@@ -1,0 +1,89 @@
+===== test/app.test.ts (exit 0) =====
+TAP version 13
+# Subtest: unknown routes return an RFC 7807 problem
+ok 1 - unknown routes return an RFC 7807 problem
+  ---
+  duration_ms: 14.368083
+  type: 'test'
+  ...
+1..1
+# tests 1
+# suites 0
+# pass 1
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 139.780042
+
+===== test/notes.test.ts (exit 0) =====
+TAP version 13
+# Subtest: POST /v1/notes creates a note with 201
+ok 1 - POST /v1/notes creates a note with 201
+  ---
+  duration_ms: 18.374667
+  type: 'test'
+  ...
+# Subtest: POST /v1/notes rejects invalid input with a 422 problem
+ok 2 - POST /v1/notes rejects invalid input with a 422 problem
+  ---
+  duration_ms: 1.396541
+  type: 'test'
+  ...
+# Subtest: POST /v1/notes rejects malformed JSON with a 422 problem
+ok 3 - POST /v1/notes rejects malformed JSON with a 422 problem
+  ---
+  duration_ms: 0.444042
+  type: 'test'
+  ...
+# Subtest: POST /v1/notes replays on a repeated Idempotency-Key and 409s on a changed body
+ok 4 - POST /v1/notes replays on a repeated Idempotency-Key and 409s on a changed body
+  ---
+  duration_ms: 1.354084
+  type: 'test'
+  ...
+# Subtest: GET /v1/notes pages with a cursor
+ok 5 - GET /v1/notes pages with a cursor
+  ---
+  duration_ms: 1.877916
+  type: 'test'
+  ...
+# Subtest: GET /v1/notes/:id returns 404 problem for a missing note and 422 for a bad id
+ok 6 - GET /v1/notes/:id returns 404 problem for a missing note and 422 for a bad id
+  ---
+  duration_ms: 0.510708
+  type: 'test'
+  ...
+# Subtest: PATCH /v1/notes/:id updates title and body with 200
+ok 7 - PATCH /v1/notes/:id updates title and body with 200
+  ---
+  duration_ms: 0.684417
+  type: 'test'
+  ...
+# Subtest: PATCH /v1/notes/:id rejects empty or invalid input with a 422 problem
+ok 8 - PATCH /v1/notes/:id rejects empty or invalid input with a 422 problem
+  ---
+  duration_ms: 0.502166
+  type: 'test'
+  ...
+# Subtest: PATCH /v1/notes/:id returns a 404 problem for a missing note
+ok 9 - PATCH /v1/notes/:id returns a 404 problem for a missing note
+  ---
+  duration_ms: 0.196792
+  type: 'test'
+  ...
+# Subtest: DELETE /v1/notes/:id returns 204, then 404
+ok 10 - DELETE /v1/notes/:id returns 204, then 404
+  ---
+  duration_ms: 0.422458
+  type: 'test'
+  ...
+1..10
+# tests 10
+# suites 0
+# pass 10
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 153.78225

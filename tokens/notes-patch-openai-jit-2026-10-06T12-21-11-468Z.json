@@ -1,0 +1,135 @@
+{
+  "runId": "notes-patch-openai-jit-2026-10-06T12-21-11-468Z",
+  "task": "notes-patch",
+  "driver": "openai",
+  "mode": "jit",
+  "turns": [
+    {
+      "turn": 1,
+      "inputTokens": 1087,
+      "outputTokens": 46,
+      "estimatedInput": 1234,
+      "estimatedShadowBaseline": 6137
+    },
+    {
+      "turn": 2,
+      "inputTokens": 2164,
+      "outputTokens": 44,
+      "estimatedInput": 2116,
+      "estimatedShadowBaseline": 7020
+    },
+    {
+      "turn": 3,
+      "inputTokens": 2980,
+      "outputTokens": 101,
+      "estimatedInput": 2973,
+      "estimatedShadowBaseline": 7877
+    },
+    {
+      "turn": 4,
+      "inputTokens": 4898,
+      "outputTokens": 1195,
+      "estimatedInput": 4664,
+      "estimatedShadowBaseline": 9568
+    },
+    {
+      "turn": 5,
+      "inputTokens": 5879,
+      "outputTokens": 22,
+      "estimatedInput": 5469,
+      "estimatedShadowBaseline": 10882
+    },
+    {
+      "turn": 6,
+      "inputTokens": 5058,
+      "outputTokens": 56,
+      "estimatedInput": 4847,
+      "estimatedShadowBaseline": 11852
+    },
+    {
+      "turn": 7,
+      "inputTokens": 5097,
+      "outputTokens": 21,
+      "estimatedInput": 4919,
+      "estimatedShadowBaseline": 11924
+    },
+    {
+      "turn": 8,
+      "inputTokens": 5136,
+      "outputTokens": 296,
+      "estimatedInput": 4991,
+      "estimatedShadowBaseline": 11995
+    },
+    {
+      "turn": 9,
+      "inputTokens": 5415,
+      "outputTokens": 70,
+      "estimatedInput": 5324,
+      "estimatedShadowBaseline": 12328
+    },
+    {
+      "turn": 10,
+      "inputTokens": 6743,
+      "outputTokens": 446,
+      "estimatedInput": 6520,
+      "estimatedShadowBaseline": 14246
+    },
+    {
+      "turn": 11,
+      "inputTokens": 6882,
+      "outputTokens": 121,
+      "estimatedInput": 6676,
+      "estimatedShadowBaseline": 14600
+    },
+    {
+      "turn": 12,
+      "inputTokens": 6540,
+      "outputTokens": 21,
+      "estimatedInput": 6430,
+      "estimatedShadowBaseline": 14767
+    },
+    {
+      "turn": 13,
+      "inputTokens": 7020,
+      "outputTokens": 294,
+      "estimatedInput": 6927,
+      "estimatedShadowBaseline": 15264
+    },
+    {
+      "turn": 14,
+      "inputTokens": 7331,
+      "outputTokens": 22,
+      "estimatedInput": 7216,
+      "estimatedShadowBaseline": 15652
+    },
+    {
+      "turn": 15,
+      "inputTokens": 6931,
+      "outputTokens": 13,
+      "estimatedInput": 6861,
+      "estimatedShadowBaseline": 16253
+    },
+    {
+      "turn": 16,
+      "inputTokens": 7058,
+      "outputTokens": 13,
+      "estimatedInput": 7007,
+      "estimatedShadowBaseline": 17147
+    },
+    {
+      "turn": 17,
+      "inputTokens": 7116,
+      "outputTokens": 156,
+      "estimatedInput": 7094,
+      "estimatedShadowBaseline": 17833
+    }
+  ],
+  "totals": {
+    "inputTokens": 93335,
+    "outputTokens": 2937,
+    "estimatedInput": 91268,
+    "estimatedShadowBaseline": 215345
+  },
+  "shadowReductionPct": 57.6,
+  "peakInputTokens": 7331
+}
