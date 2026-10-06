@@ -1,0 +1,27 @@
+{
+  "observations": [
+    {
+      "file": "test/notes.test.ts",
+      "ok": false,
+      "at": "2026-10-06T12:21:30.093Z"
+    },
+    {
+      "file": "test/notes.test.ts",
+      "ok": true,
+      "at": "2026-10-06T12:21:54.218Z"
+    },
+    {
+      "file": "test/app.test.ts",
+      "ok": true,
+      "at": "2026-10-06T12:21:57.723Z"
+    },
+    {
+      "file": "test/notes.test.ts",
+      "ok": true,
+      "at": "2026-10-06T12:21:57.723Z"
+    }
+  ],
+  "red": [
+    "test/notes.test.ts"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "routes": [
+    "DELETE /v1/notes/:id",
+    "GET /v1/notes",
+    "GET /v1/notes/:id",
+    "POST /v1/notes"
+  ],
+  "schemas": {
+    "src/lib/pagination.ts#PageQuerySchema": [
+      "cursor",
+      "limit"
+    ],
+    "src/lib/problem.ts#ProblemSchema": [
+      "detail",
+      "instance",
+      "status",
+      "title",
+      "type"
+    ],
+    "src/notes/schema.ts#NoteSchema": [
+      "body",
+      "createdAt",
+      "id",
+      "title"
+    ],
+    "src/notes/schema.ts#CreateNoteSchema": [
+      "body",
+      "title"
+    ],
+    "src/notes/schema.ts#NoteParamsSchema": [
+      "id"
+    ]
+  }
+}
