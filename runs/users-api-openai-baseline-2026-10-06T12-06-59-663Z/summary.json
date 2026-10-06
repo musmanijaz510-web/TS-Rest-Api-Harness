@@ -1,0 +1,49 @@
+{
+  "runId": "users-api-openai-baseline-2026-10-06T12-06-59-663Z",
+  "task": "users-api",
+  "driver": "openai",
+  "model": "gpt-5.5 via direct",
+  "mode": "baseline",
+  "workspace": "/Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace",
+  "status": "green",
+  "reason": "all gates green",
+  "turns": 17,
+  "toolCalls": 16,
+  "blocked": 0,
+  "changed": [
+    "src/app.ts",
+    "src/users.ts",
+    "test/users.test.ts"
+  ],
+  "red": [
+    "test/users.test.ts"
+  ],
+  "gates": [
+    {
+      "gate": "standards",
+      "status": "pass",
+      "detail": "100% (problem-json:pass, rest-conventions:pass, tsc-strict:pass, type-escapes:pass, zod-boundary:pass, zod-infer:pass)",
+      "proves": "every registered standards rule passed on every file it applies to"
+    },
+    {
+      "gate": "tests",
+      "status": "pass",
+      "detail": "2 file(s), 7 tests passed",
+      "proves": "every test file passed under the harness runner (not the model)"
+    },
+    {
+      "gate": "contract",
+      "status": "pass",
+      "detail": "0 pre-existing route(s) and 2 schema(s) intact",
+      "proves": "no route or exported schema field that existed before the run was removed"
+    },
+    {
+      "gate": "observed-red",
+      "status": "pass",
+      "detail": "2 changed source file(s), each with a mapped test the harness saw fail",
+      "proves": "each changed source file has a mapped test that the harness runner saw fail before it was edited"
+    }
+  ],
+  "standardsPercent": 100,
+  "tokenReport": "tokens/users-api-openai-baseline-2026-10-06T12-06-59-663Z.json"
+}

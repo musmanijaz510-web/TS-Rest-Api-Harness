@@ -1,0 +1,25 @@
+{
+  "id": "users-api",
+  "kind": "greenfield",
+  "target": "generated/users-api",
+  "description": "A users REST API: create, list, fetch, update and delete users.",
+  "resource": {
+    "name": "users",
+    "fields": [
+      { "name": "id", "type": "uuid", "required": true, "generated": true },
+      { "name": "email", "type": "email", "required": true, "unique": true },
+      { "name": "name", "type": "string", "required": true, "maxLength": 120 },
+      { "name": "role", "type": "enum", "values": ["admin", "member"], "default": "member" },
+      { "name": "createdAt", "type": "datetime", "generated": true }
+    ]
+  },
+  "behaviours": [
+    "GET /v1/users lists users with cursor pagination (limit 1-100, default 20)",
+    "POST /v1/users creates a user, returns 201, honours Idempotency-Key, returns 409 when the email is already taken",
+    "GET /v1/users/:id returns the user or a 404 problem",
+    "PATCH /v1/users/:id updates name and/or role, returns 404 when missing, 422 on invalid input",
+    "DELETE /v1/users/:id returns 204, or 404 when missing",
+    "Invalid input anywhere is a 422 application/problem+json"
+  ],
+  "scope": ["src/**", "test/**"]
+}

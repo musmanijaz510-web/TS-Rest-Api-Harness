@@ -1,0 +1,127 @@
+===== test/users.test.ts (exit 1) =====
+TAP version 13
+# Subtest: POST /v1/users creates users and rejects duplicate emails
+not ok 1 - POST /v1/users creates users and rejects duplicate emails
+  ---
+  duration_ms: 14.752208
+  type: 'test'
+  location: '/Users/musman/Documents/Rest_Api_Harness/generated/users-api/test/users.test.ts:10:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    404 !== 201
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 201
+  actual: 404
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/musman/Documents/Rest_Api_Harness/generated/users-api/test/users.test.ts:17:10)
+    async Test.run (node:internal/test_runner/test:1409:7)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+  ...
+# Subtest: POST /v1/users honours Idempotency-Key
+not ok 2 - POST /v1/users honours Idempotency-Key
+  ---
+  duration_ms: 1.090375
+  type: 'test'
+  location: '/Users/musman/Documents/Rest_Api_Harness/generated/users-api/test/users.test.ts:38:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    404 !== 201
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 201
+  actual: 404
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/musman/Documents/Rest_Api_Harness/generated/users-api/test/users.test.ts:52:10)
+    async Test.run (node:internal/test_runner/test:1409:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+  ...
+# Subtest: GET /v1/users lists users with cursor pagination
+not ok 3 - GET /v1/users lists users with cursor pagination
+  ---
+  duration_ms: 0.532167
+  type: 'test'
+  location: '/Users/musman/Documents/Rest_Api_Harness/generated/users-api/test/users.test.ts:65:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    404 !== 201
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 201
+  actual: 404
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/musman/Documents/Rest_Api_Harness/generated/users-api/test/users.test.ts:76:10)
+    async Test.run (node:internal/test_runner/test:1409:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+  ...
+# Subtest: GET, PATCH and DELETE /v1/users/:id operate on a user
+not ok 4 - GET, PATCH and DELETE /v1/users/:id operate on a user
+  ---
+  duration_ms: 0.403083
+  type: 'test'
+  location: '/Users/musman/Documents/Rest_Api_Harness/generated/users-api/test/users.test.ts:92:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    404 !== 200
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 200
+  actual: 404
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/musman/Documents/Rest_Api_Harness/generated/users-api/test/users.test.ts:101:10)
+    async Test.run (node:internal/test_runner/test:1409:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+  ...
+# Subtest: invalid input returns 422 application/problem+json
+not ok 5 - invalid input returns 422 application/problem+json
+  ---
+  duration_ms: 0.212458
+  type: 'test'
+  location: '/Users/musman/Documents/Rest_Api_Harness/generated/users-api/test/users.test.ts:123:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    404 !== 422
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 422
+  actual: 404
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/musman/Documents/Rest_Api_Harness/generated/users-api/test/users.test.ts:129:10)
+    async Test.run (node:internal/test_runner/test:1409:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+  ...
+# Subtest: missing users return 404 problems
+ok 6 - missing users return 404 problems
+  ---
+  duration_ms: 0.598958
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 1
+# fail 5
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 201.1985

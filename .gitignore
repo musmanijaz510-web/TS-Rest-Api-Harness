@@ -1,0 +1,7 @@
+node_modules/
+# scratch dirs from tests and bench; real run evidence under runs/<runId>/ is kept
+runs/_*/
+runs/*/ship.index
+.env
+.env.*
+!.env.example

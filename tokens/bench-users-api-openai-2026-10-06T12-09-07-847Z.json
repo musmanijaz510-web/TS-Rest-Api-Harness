@@ -1,0 +1,107 @@
+{
+  "task": "users-api",
+  "driver": "openai",
+  "baselineRun": "users-api-openai-baseline-2026-10-06T12-06-59-663Z",
+  "actualRun": "users-api-openai-jit-2026-10-06T12-08-14-674Z",
+  "perTurn": [
+    {
+      "turn": 1,
+      "baseline": 4623,
+      "actual": 1209
+    },
+    {
+      "turn": 2,
+      "baseline": 4721,
+      "actual": 1307
+    },
+    {
+      "turn": 3,
+      "baseline": 5537,
+      "actual": 2123
+    },
+    {
+      "turn": 4,
+      "baseline": 5683,
+      "actual": 4246
+    },
+    {
+      "turn": 5,
+      "baseline": 7513,
+      "actual": 6196
+    },
+    {
+      "turn": 6,
+      "baseline": 9414,
+      "actual": 6327
+    },
+    {
+      "turn": 7,
+      "baseline": 10485,
+      "actual": 7500
+    },
+    {
+      "turn": 8,
+      "baseline": 10622,
+      "actual": 7545
+    },
+    {
+      "turn": 9,
+      "baseline": 11520,
+      "actual": 7504
+    },
+    {
+      "turn": 10,
+      "baseline": 12113,
+      "actual": 7702
+    },
+    {
+      "turn": 11,
+      "baseline": 12597,
+      "actual": 7721
+    },
+    {
+      "turn": 12,
+      "baseline": 13197,
+      "actual": 7778
+    },
+    {
+      "turn": 13,
+      "baseline": 14138,
+      "actual": 7905
+    },
+    {
+      "turn": 14,
+      "baseline": 15780,
+      "actual": null
+    },
+    {
+      "turn": 15,
+      "baseline": 15916,
+      "actual": null
+    },
+    {
+      "turn": 16,
+      "baseline": 16517,
+      "actual": null
+    },
+    {
+      "turn": 17,
+      "baseline": 17429,
+      "actual": null
+    }
+  ],
+  "totals": {
+    "baseline": 187805,
+    "actual": 75063
+  },
+  "reductionPct": 60,
+  "peak": {
+    "baseline": 17429,
+    "actual": 7905,
+    "reductionPct": 54.6
+  },
+  "bothRunsGreen": {
+    "baseline": true,
+    "actual": true
+  }
+}

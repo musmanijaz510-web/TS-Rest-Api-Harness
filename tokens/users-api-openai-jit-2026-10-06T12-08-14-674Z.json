@@ -1,0 +1,107 @@
+{
+  "runId": "users-api-openai-jit-2026-10-06T12-08-14-674Z",
+  "task": "users-api",
+  "driver": "openai",
+  "mode": "jit",
+  "turns": [
+    {
+      "turn": 1,
+      "inputTokens": 1209,
+      "outputTokens": 13,
+      "estimatedInput": 1357,
+      "estimatedShadowBaseline": 4740
+    },
+    {
+      "turn": 2,
+      "inputTokens": 1307,
+      "outputTokens": 44,
+      "estimatedInput": 1466,
+      "estimatedShadowBaseline": 4850
+    },
+    {
+      "turn": 3,
+      "inputTokens": 2123,
+      "outputTokens": 149,
+      "estimatedInput": 2323,
+      "estimatedShadowBaseline": 5707
+    },
+    {
+      "turn": 4,
+      "inputTokens": 4246,
+      "outputTokens": 2095,
+      "estimatedInput": 4431,
+      "estimatedShadowBaseline": 7814
+    },
+    {
+      "turn": 5,
+      "inputTokens": 6196,
+      "outputTokens": 21,
+      "estimatedInput": 6169,
+      "estimatedShadowBaseline": 11221
+    },
+    {
+      "turn": 6,
+      "inputTokens": 6327,
+      "outputTokens": 1518,
+      "estimatedInput": 6323,
+      "estimatedShadowBaseline": 12434
+    },
+    {
+      "turn": 7,
+      "inputTokens": 7500,
+      "outputTokens": 19,
+      "estimatedInput": 7359,
+      "estimatedShadowBaseline": 14437
+    },
+    {
+      "turn": 8,
+      "inputTokens": 7545,
+      "outputTokens": 237,
+      "estimatedInput": 7438,
+      "estimatedShadowBaseline": 14516
+    },
+    {
+      "turn": 9,
+      "inputTokens": 7504,
+      "outputTokens": 19,
+      "estimatedInput": 7445,
+      "estimatedShadowBaseline": 14673
+    },
+    {
+      "turn": 10,
+      "inputTokens": 7702,
+      "outputTokens": 21,
+      "estimatedInput": 7673,
+      "estimatedShadowBaseline": 14901
+    },
+    {
+      "turn": 11,
+      "inputTokens": 7721,
+      "outputTokens": 13,
+      "estimatedInput": 7729,
+      "estimatedShadowBaseline": 15286
+    },
+    {
+      "turn": 12,
+      "inputTokens": 7778,
+      "outputTokens": 13,
+      "estimatedInput": 7816,
+      "estimatedShadowBaseline": 15752
+    },
+    {
+      "turn": 13,
+      "inputTokens": 7905,
+      "outputTokens": 22,
+      "estimatedInput": 7960,
+      "estimatedShadowBaseline": 16494
+    }
+  ],
+  "totals": {
+    "inputTokens": 75063,
+    "outputTokens": 4184,
+    "estimatedInput": 75489,
+    "estimatedShadowBaseline": 152825
+  },
+  "shadowReductionPct": 50.6,
+  "peakInputTokens": 7905
+}

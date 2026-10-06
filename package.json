@@ -1,0 +1,30 @@
+{
+  "name": "ts-api-harness",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A harness that governs TypeScript REST API work across model providers.",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "bin": {
+    "harness": "bin/harness.ts"
+  },
+  "imports": {
+    "#harness/*": "./harness/core/*"
+  },
+  "scripts": {
+    "harness": "node bin/harness.ts",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.17",
+    "hono": "^4.13.13",
+    "typescript": "~5.9.3",
+    "zod": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0"
+  }
+}

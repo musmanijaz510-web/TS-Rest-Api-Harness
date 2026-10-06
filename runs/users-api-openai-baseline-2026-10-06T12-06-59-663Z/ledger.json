@@ -1,0 +1,42 @@
+{
+  "observations": [
+    {
+      "file": "test/users.test.ts",
+      "ok": false,
+      "at": "2026-10-06T12:07:28.938Z"
+    },
+    {
+      "file": "test/users.test.ts",
+      "ok": false,
+      "at": "2026-10-06T12:07:50.163Z"
+    },
+    {
+      "file": "test/users.test.ts",
+      "ok": true,
+      "at": "2026-10-06T12:08:00.532Z"
+    },
+    {
+      "file": "test/app.test.ts",
+      "ok": true,
+      "at": "2026-10-06T12:08:02.169Z"
+    },
+    {
+      "file": "test/users.test.ts",
+      "ok": true,
+      "at": "2026-10-06T12:08:02.169Z"
+    },
+    {
+      "file": "test/app.test.ts",
+      "ok": true,
+      "at": "2026-10-06T12:08:09.984Z"
+    },
+    {
+      "file": "test/users.test.ts",
+      "ok": true,
+      "at": "2026-10-06T12:08:09.984Z"
+    }
+  ],
+  "red": [
+    "test/users.test.ts"
+  ]
+}

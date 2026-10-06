@@ -1,0 +1,147 @@
+===== test/users.test.ts (exit 1) =====
+TAP version 13
+# Subtest: POST /v1/users creates users, rejects duplicate email, and replays idempotent creates
+not ok 1 - POST /v1/users creates users, rejects duplicate email, and replays idempotent creates
+  ---
+  duration_ms: 16.201625
+  type: 'test'
+  location: '/Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace/test/users.test.ts:34:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    404 !== 201
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 201
+  actual: 404
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace/test/users.test.ts:41:10)
+    async Test.run (node:internal/test_runner/test:1409:7)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)
+  ...
+# Subtest: GET /v1/users lists users with cursor pagination
+not ok 2 - GET /v1/users lists users with cursor pagination
+  ---
+  duration_ms: 0.396334
+  type: 'test'
+  location: '/Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace/test/users.test.ts:66:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    404 !== 201
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 201
+  actual: 404
+  operator: 'strictEqual'
+  stack: |-
+    createUser (file:///Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace/test/users.test.ts:30:10)
+    async TestContext.<anonymous> (file:///Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace/test/users.test.ts:67:15)
+    async Test.run (node:internal/test_runner/test:1409:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+  ...
+# Subtest: GET /v1/users/:id returns a user or a 404 problem
+not ok 3 - GET /v1/users/:id returns a user or a 404 problem
+  ---
+  duration_ms: 0.287291
+  type: 'test'
+  location: '/Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace/test/users.test.ts:86:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    404 !== 201
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 201
+  actual: 404
+  operator: 'strictEqual'
+  stack: |-
+    createUser (file:///Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace/test/users.test.ts:30:10)
+    async TestContext.<anonymous> (file:///Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace/test/users.test.ts:87:19)
+    async Test.run (node:internal/test_runner/test:1409:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+  ...
+# Subtest: PATCH /v1/users/:id updates name and role, returns 404 when missing, and 422 for invalid input
+not ok 4 - PATCH /v1/users/:id updates name and role, returns 404 when missing, and 422 for invalid input
+  ---
+  duration_ms: 0.28025
+  type: 'test'
+  location: '/Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace/test/users.test.ts:98:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    404 !== 201
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 201
+  actual: 404
+  operator: 'strictEqual'
+  stack: |-
+    createUser (file:///Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace/test/users.test.ts:30:10)
+    async TestContext.<anonymous> (file:///Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace/test/users.test.ts:99:19)
+    async Test.run (node:internal/test_runner/test:1409:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+  ...
+# Subtest: DELETE /v1/users/:id deletes a user or returns a 404 problem
+not ok 5 - DELETE /v1/users/:id deletes a user or returns a 404 problem
+  ---
+  duration_ms: 0.324625
+  type: 'test'
+  location: '/Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace/test/users.test.ts:128:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    404 !== 201
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 201
+  actual: 404
+  operator: 'strictEqual'
+  stack: |-
+    createUser (file:///Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace/test/users.test.ts:30:10)
+    async TestContext.<anonymous> (file:///Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace/test/users.test.ts:129:19)
+    async Test.run (node:internal/test_runner/test:1409:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+  ...
+# Subtest: invalid input anywhere returns a 422 problem
+not ok 6 - invalid input anywhere returns a 422 problem
+  ---
+  duration_ms: 0.240917
+  type: 'test'
+  location: '/Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace/test/users.test.ts:140:1'
+  failureType: 'testCodeFailure'
+  error: |-
+    Expected values to be strictly equal:
+    
+    404 !== 422
+    
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: 422
+  actual: 404
+  operator: 'strictEqual'
+  stack: |-
+    TestContext.<anonymous> (file:///Users/musman/Documents/Rest_Api_Harness/runs/_bench-users-api-openai-1791288419635/workspace/test/users.test.ts:146:10)
+    async Test.run (node:internal/test_runner/test:1409:7)
+    async Test.processPendingSubtests (node:internal/test_runner/test:974:7)
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 0
+# fail 6
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 164.223791

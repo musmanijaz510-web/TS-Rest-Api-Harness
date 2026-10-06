@@ -1,0 +1,13 @@
+{
+  "id": "notes-patch",
+  "kind": "brownfield",
+  "target": "samples/notes-api",
+  "description": "Add PATCH /v1/notes/:id to the existing notes API. Title and body are optional, at least one must be present. Keep every existing route and schema field working.",
+  "behaviours": [
+    "PATCH /v1/notes/:id updates title and/or body and returns the updated note with 200",
+    "PATCH with an empty object or invalid fields returns a 422 problem",
+    "PATCH on a missing note returns a 404 problem",
+    "Existing GET, POST and DELETE behaviour is unchanged"
+  ],
+  "scope": ["src/notes/**", "test/notes*.test.ts"]
+}

@@ -1,0 +1,62 @@
+problem-json      pass  src/app.ts  2/2
+problem-json      n/a   src/lib/idempotency.ts
+problem-json      n/a   src/lib/pagination.ts
+problem-json      pass  src/lib/problem.ts  1/1
+problem-json      n/a   src/lib/validate.ts
+problem-json      n/a   src/server.ts
+problem-json      pass  src/users.ts  4/4
+problem-json      n/a   test/app.test.ts
+problem-json      n/a   test/users.test.ts
+rest-conventions  n/a   src/app.ts
+rest-conventions  n/a   src/lib/idempotency.ts
+rest-conventions  n/a   src/lib/pagination.ts
+rest-conventions  n/a   src/lib/problem.ts
+rest-conventions  n/a   src/lib/validate.ts
+rest-conventions  n/a   src/server.ts
+rest-conventions  pass  src/users.ts  5/5
+rest-conventions  n/a   test/app.test.ts
+rest-conventions  n/a   test/users.test.ts
+tsc-strict        pass  src/app.ts  1/1
+tsc-strict        pass  src/lib/idempotency.ts  1/1
+tsc-strict        pass  src/lib/pagination.ts  1/1
+tsc-strict        pass  src/lib/problem.ts  1/1
+tsc-strict        pass  src/lib/validate.ts  1/1
+tsc-strict        pass  src/server.ts  1/1
+tsc-strict        pass  src/users.ts  1/1
+tsc-strict        pass  test/app.test.ts  1/1
+tsc-strict        pass  test/users.test.ts  1/1
+type-escapes      pass  src/app.ts  1/1
+type-escapes      pass  src/lib/idempotency.ts  1/1
+type-escapes      pass  src/lib/pagination.ts  1/1
+type-escapes      pass  src/lib/problem.ts  1/1
+type-escapes      pass  src/lib/validate.ts  1/1
+type-escapes      pass  src/server.ts  1/1
+type-escapes      pass  src/users.ts  1/1
+type-escapes      pass  test/app.test.ts  1/1
+type-escapes      pass  test/users.test.ts  1/1
+zod-boundary      n/a   src/app.ts
+zod-boundary      n/a   src/lib/idempotency.ts
+zod-boundary      n/a   src/lib/pagination.ts
+zod-boundary      n/a   src/lib/problem.ts
+zod-boundary      n/a   src/lib/validate.ts
+zod-boundary      n/a   src/server.ts
+zod-boundary      pass  src/users.ts  5/5
+zod-boundary      n/a   test/app.test.ts
+zod-boundary      n/a   test/users.test.ts
+zod-infer         pass  src/app.ts  1/1
+zod-infer         pass  src/lib/idempotency.ts  1/1
+zod-infer         pass  src/lib/pagination.ts  1/1
+zod-infer         pass  src/lib/problem.ts  1/1
+zod-infer         pass  src/lib/validate.ts  1/1
+zod-infer         pass  src/server.ts  1/1
+zod-infer         pass  src/users.ts  1/1
+zod-infer         n/a   test/app.test.ts
+zod-infer         n/a   test/users.test.ts
+
+problem-json      pass     7/7 error paths
+rest-conventions  pass     5/5 routes
+tsc-strict        pass     9/9 files
+type-escapes      pass     9/9 files
+zod-boundary      pass     5/5 handlers
+zod-infer         pass     7/7 files
+verdict           100%     -> all standards green

@@ -1,0 +1,135 @@
+{
+  "runId": "users-api-openai-baseline-2026-10-06T12-06-59-663Z",
+  "task": "users-api",
+  "driver": "openai",
+  "mode": "baseline",
+  "turns": [
+    {
+      "turn": 1,
+      "inputTokens": 4623,
+      "outputTokens": 13,
+      "estimatedInput": 4740,
+      "estimatedShadowBaseline": 4740
+    },
+    {
+      "turn": 2,
+      "inputTokens": 4721,
+      "outputTokens": 44,
+      "estimatedInput": 4850,
+      "estimatedShadowBaseline": 4850
+    },
+    {
+      "turn": 3,
+      "inputTokens": 5537,
+      "outputTokens": 221,
+      "estimatedInput": 5707,
+      "estimatedShadowBaseline": 5707
+    },
+    {
+      "turn": 4,
+      "inputTokens": 5683,
+      "outputTokens": 2177,
+      "estimatedInput": 5864,
+      "estimatedShadowBaseline": 5864
+    },
+    {
+      "turn": 5,
+      "inputTokens": 7513,
+      "outputTokens": 21,
+      "estimatedInput": 7506,
+      "estimatedShadowBaseline": 9077
+    },
+    {
+      "turn": 6,
+      "inputTokens": 9414,
+      "outputTokens": 1569,
+      "estimatedInput": 9186,
+      "estimatedShadowBaseline": 10757
+    },
+    {
+      "turn": 7,
+      "inputTokens": 10485,
+      "outputTokens": 193,
+      "estimatedInput": 10124,
+      "estimatedShadowBaseline": 12566
+    },
+    {
+      "turn": 8,
+      "inputTokens": 10622,
+      "outputTokens": 21,
+      "estimatedInput": 10287,
+      "estimatedShadowBaseline": 12730
+    },
+    {
+      "turn": 9,
+      "inputTokens": 11520,
+      "outputTokens": 791,
+      "estimatedInput": 11023,
+      "estimatedShadowBaseline": 13466
+    },
+    {
+      "turn": 10,
+      "inputTokens": 12113,
+      "outputTokens": 21,
+      "estimatedInput": 11602,
+      "estimatedShadowBaseline": 14107
+    },
+    {
+      "turn": 11,
+      "inputTokens": 12597,
+      "outputTokens": 13,
+      "estimatedInput": 12036,
+      "estimatedShadowBaseline": 14541
+    },
+    {
+      "turn": 12,
+      "inputTokens": 13197,
+      "outputTokens": 13,
+      "estimatedInput": 12553,
+      "estimatedShadowBaseline": 15058
+    },
+    {
+      "turn": 13,
+      "inputTokens": 14138,
+      "outputTokens": 30,
+      "estimatedInput": 13322,
+      "estimatedShadowBaseline": 15827
+    },
+    {
+      "turn": 14,
+      "inputTokens": 15780,
+      "outputTokens": 170,
+      "estimatedInput": 15020,
+      "estimatedShadowBaseline": 17525
+    },
+    {
+      "turn": 15,
+      "inputTokens": 15916,
+      "outputTokens": 13,
+      "estimatedInput": 15186,
+      "estimatedShadowBaseline": 17699
+    },
+    {
+      "turn": 16,
+      "inputTokens": 16517,
+      "outputTokens": 13,
+      "estimatedInput": 15704,
+      "estimatedShadowBaseline": 18216
+    },
+    {
+      "turn": 17,
+      "inputTokens": 17429,
+      "outputTokens": 36,
+      "estimatedInput": 16445,
+      "estimatedShadowBaseline": 18958
+    }
+  ],
+  "totals": {
+    "inputTokens": 187805,
+    "outputTokens": 5359,
+    "estimatedInput": 181155,
+    "estimatedShadowBaseline": 211688
+  },
+  "shadowReductionPct": null,
+  "peakInputTokens": 17429
+}

@@ -1,0 +1,16 @@
+{
+  "routes": [],
+  "schemas": {
+    "src/lib/pagination.ts#PageQuerySchema": [
+      "cursor",
+      "limit"
+    ],
+    "src/lib/problem.ts#ProblemSchema": [
+      "detail",
+      "instance",
+      "status",
+      "title",
+      "type"
+    ]
+  }
+}

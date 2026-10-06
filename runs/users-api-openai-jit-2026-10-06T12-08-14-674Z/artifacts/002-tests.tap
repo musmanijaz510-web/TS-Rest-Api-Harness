@@ -1,0 +1,47 @@
+===== test/users.test.ts (exit 0) =====
+TAP version 13
+# Subtest: POST /v1/users creates users and rejects duplicate emails
+ok 1 - POST /v1/users creates users and rejects duplicate emails
+  ---
+  duration_ms: 18.980542
+  type: 'test'
+  ...
+# Subtest: POST /v1/users honours Idempotency-Key
+ok 2 - POST /v1/users honours Idempotency-Key
+  ---
+  duration_ms: 1.697042
+  type: 'test'
+  ...
+# Subtest: GET /v1/users lists users with cursor pagination
+ok 3 - GET /v1/users lists users with cursor pagination
+  ---
+  duration_ms: 1.629292
+  type: 'test'
+  ...
+# Subtest: GET, PATCH and DELETE /v1/users/:id operate on a user
+ok 4 - GET, PATCH and DELETE /v1/users/:id operate on a user
+  ---
+  duration_ms: 1.155125
+  type: 'test'
+  ...
+# Subtest: invalid input returns 422 application/problem+json
+ok 5 - invalid input returns 422 application/problem+json
+  ---
+  duration_ms: 0.849083
+  type: 'test'
+  ...
+# Subtest: missing users return 404 problems
+ok 6 - missing users return 404 problems
+  ---
+  duration_ms: 0.350542
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 178.221708
